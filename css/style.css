@@ -1,0 +1,21 @@
+header {
+    background-color: gray;
+    height: 300px;
+    float: none;
+}
+main {
+    background-color: orange;
+    float: left;
+    height: 500px;
+    width: 70%;
+}
+sidebar {
+    background-color: red;
+    float: right;
+    height: 500px;
+    width: 30%;
+}
+footer {
+    background-color: yellowgreen;
+    height: 150px;
+}
