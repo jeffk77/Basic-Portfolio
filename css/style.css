@@ -144,6 +144,28 @@ footer p {
     line-height: 100px;
     vertical-align: middle;
 }
+
+#gallery {
+    padding: 30px;
+}
+.galleryitem {
+    width: 300px;
+    height: 200px;
+    float: left;
+    display: block;
+}
+.galleryitemlabel {
+    width: 100%;
+    height: fit-content;
+    font-size: 1em;
+    color: white;
+    margin-bottom: 10px;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+#gallery1 {
+    background-image: url("../images/biophoto.png");
+}
 input[type=text], input[type=email], textarea {
     width: 100%;
     padding: 10px;
