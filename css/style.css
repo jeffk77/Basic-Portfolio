@@ -145,26 +145,19 @@ footer p {
     vertical-align: middle;
 }
 
-#gallery {
-    padding: 30px;
-}
 .galleryitem {
     width: 300px;
-    height: 200px;
-    float: left;
-    display: block;
+    display: inline-block;
 }
-.galleryitemlabel {
-    width: 100%;
-    height: fit-content;
-    font-size: 1em;
-    color: white;
-    margin-bottom: 10px;
-    background-color: #4aaaa5;
+.desc {
     text-align: center;
+    position: relative;
+    bottom: 75px;
+    background-color: #4aaaa5;
+    padding: 10px;
 }
-#gallery1 {
-    background-image: url("../images/biophoto.png");
+.desc p {
+    color: white;
 }
 input[type=text], input[type=email], textarea {
     width: 100%;
