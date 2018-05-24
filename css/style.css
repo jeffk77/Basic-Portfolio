@@ -96,7 +96,7 @@ main {
     height: fit-content;
     margin: auto;
     background-color: #ffffff;
-    border: 1px #cccccc solid;
+    border: 1px #dddddd solid;
 }
 #gallerysection {
     position: absolute;
@@ -111,7 +111,7 @@ main {
     background-color: #ffffff;
     display: block;
     vertical-align: middle;
-    border: 1px #cccccc solid;
+    border: 1px #dddddd solid;
 }
 footer {
 	position: fixed;
@@ -167,6 +167,7 @@ footer p {
     height: 166px;
     display: inline-block;
     margin-right: 30px;
+    background-color: black;
 }
 .desc {
     text-align: center;
@@ -175,6 +176,12 @@ footer p {
     background-color: #4aaaa5;
     padding: 5px;
     width: 300px;
+}
+.desc:hover {
+    background-color: #3E0CE8;
+}
+.desc:focus {
+    background-color: #7FFF0D;
 }
 .desc p {
     color: white;
