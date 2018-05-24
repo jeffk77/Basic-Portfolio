@@ -96,8 +96,24 @@ main {
     height: fit-content;
     margin: auto;
     background-color: #ffffff;
-    display: block;
+    border: 0.25px solid rgb(100, 100, 100);
 }
+#gallerysection {
+    position: absolute;
+    padding: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 960px;
+    height: fit-content;
+    margin: 10% auto;
+    background-color: #ffffff;
+    display: block;
+    vertical-align: middle;
+    border: 0.25px solid rgb(100,100,100);
+}
+
 footer {
 	position: fixed;
     bottom: 0;
@@ -148,8 +164,8 @@ footer p {
 }
 
 .galleryitem {
-    width: 200px;
-    height: 75px;
+    width: 300px;
+    height: 166px;
     display: inline-block;
     margin-right: 30px;
 }
@@ -159,7 +175,7 @@ footer p {
     bottom: 50px;
     background-color: #4aaaa5;
     padding: 5px;
-    width: 200px;
+    width: 300px;
 }
 .desc p {
     color: white;
