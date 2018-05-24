@@ -96,7 +96,7 @@ main {
     height: fit-content;
     margin: auto;
     background-color: #ffffff;
-    border: 0.25px solid rgb(100, 100, 100);
+    border: 1px #cccccc solid;
 }
 #gallerysection {
     position: absolute;
@@ -111,9 +111,8 @@ main {
     background-color: #ffffff;
     display: block;
     vertical-align: middle;
-    border: 0.25px solid rgb(100,100,100);
+    border: 1px #cccccc solid;
 }
-
 footer {
 	position: fixed;
     bottom: 0;
