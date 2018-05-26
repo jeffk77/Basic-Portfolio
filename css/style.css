@@ -44,8 +44,10 @@ header {
 nav {
 	font-size: 1em;
     list-style-type: none;
-    text-align: center;
-    vertical-align: middle;
+    text-align: right;
+}
+nav a {
+    margin-top: 3%;
 }
 ul {
     list-style-type: none;
@@ -96,7 +98,22 @@ main {
     height: fit-content;
     margin: auto;
     background-color: #ffffff;
+    border: 1px #dddddd solid;
+}
+#gallerysection {
+    position: absolute;
+    padding: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 960px;
+    height: fit-content;
+    margin: 10% auto;
+    background-color: #ffffff;
     display: block;
+    vertical-align: middle;
+    border: 1px #dddddd solid;
 }
 footer {
 	position: fixed;
@@ -148,10 +165,11 @@ footer p {
 }
 
 .galleryitem {
-    width: 200px;
-    height: 75px;
+    width: 300px;
+    height: 166px;
     display: inline-block;
     margin-right: 30px;
+    background-color: black;
 }
 .desc {
     text-align: center;
@@ -159,7 +177,13 @@ footer p {
     bottom: 50px;
     background-color: #4aaaa5;
     padding: 5px;
-    width: 200px;
+    width: 300px;
+}
+.desc:hover {
+    background-color: #3E0CE8;
+}
+.desc:focus {
+    background-color: #7FFF0D;
 }
 .desc p {
     color: white;
